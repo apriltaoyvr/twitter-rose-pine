@@ -1,6 +1,6 @@
-# Rose Pine Twitter
+# Rosé Pine Twitter
 
-A Stylus theme for Twitter, using the [Rose Pine](https://rosepinetheme.com/) palette.
+A Stylus theme for Twitter, using the [Rosé Pine](https://rosepinetheme.com/) palette.
 
 ## Screenshots
 
@@ -10,7 +10,7 @@ A Stylus theme for Twitter, using the [Rose Pine](https://rosepinetheme.com/) pa
 2. Open this link
 3. Activate the theme
 
-For the default Rose Pine and Rose Pine Moon, please switch to the dark theme on twitter.
+For the default **Rosé Pine** and **Rosé Pine Moon**, please switch to the dark theme on twitter.
 
 The accent colour can be adjusted via the theme adjuster on twitter as well.
 

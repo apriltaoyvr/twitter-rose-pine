@@ -45,7 +45,7 @@
     "media-feature-name-no-unknown": [
       true, {"severity": "warning"}
     ],
-    "no-empty-source": false,
+    "no-empty-source": null,
     "no-extra-semicolons": [
       true, {"severity": "warning"}
     ],
@@ -61,15 +61,15 @@
     "selector-pseudo-element-no-unknown": [
       true, {"severity": "warning"}
     ],
-    "selector-type-no-unknown": false,
+    "selector-type-no-unknown": null,
     "string-no-newline": [
       true, {"severity": "warning"}
     ],
     "unit-no-unknown": [
       true, {"severity": "warning"}
     ],
-    "comment-no-empty": false,
-    "declaration-block-no-redundant-longhand-properties": false,
-    "shorthand-property-no-redundant-values": false
+    "comment-no-empty": null,
+    "declaration-block-no-redundant-longhand-properties": null,
+    "shorthand-property-no-redundant-values": null
   }
 }
