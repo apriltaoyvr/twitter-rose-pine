@@ -46,9 +46,6 @@
       true, {"severity": "warning"}
     ],
     "no-empty-source": null,
-    "no-extra-semicolons": [
-      true, {"severity": "warning"}
-    ],
     "no-invalid-double-slash-comments": [
       true, {"severity": "warning"}
     ],
