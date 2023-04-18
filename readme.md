@@ -10,7 +10,7 @@ A Stylus theme for Twitter, using the [Rosé Pine](https://rosepinetheme.com/) p
 ## Installation
 
 1. Install Stylus
-2. Download the theme from [here]() or via [Userstyles](https://userstyles.world/style/9440/rose-pine-twitter)
+2. Download the theme from [here](https://github.com/apriltaoyvr/twitter-rose-pine/raw/main/main.user.css) or via [Userstyles](https://userstyles.world/style/9440/rose-pine-twitter)
 3. Activate the theme
 
 For the default **Rosé Pine** and **Rosé Pine Moon**, please switch to the dark theme on twitter.
