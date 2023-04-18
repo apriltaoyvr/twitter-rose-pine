@@ -1,0 +1,246 @@
+/* ==UserStyle==
+@name Rose Pine Twitter
+@namespace github.com/apriltaoyvr/rosepine-twitter
+@homepageURL https://github.com/artilate/rosepine-twitter
+@version 1.3
+
+@updateURL https://github.com/apriltaoyvr/rosepine-twitter/main.user.css
+@description Rose Pine for Twitter
+@author apriltaoyvr
+@license GNU-V3.0
+
+@preprocessor stylus
+
+@var select theme "Theme" ["default:Rose Pine*", "moon:Rose Pine Moon", "dawn:Rose Pine Dawn"]
+
+@var select logo "Logo Colour" [
+  "Default*",
+	"Love",
+	"Pine",
+	"Rose",
+  "Gold",
+  "Iris",
+  "Foam"
+]
+
+==/UserStyle== */
+
+@-moz-document domain("twitter.com") {
+  :root {
+    if theme == default {
+      --text: hsl(245, 50%, 91%);
+      --base: hsl(249, 22%, 12%);
+      --surface: hsl(247, 23%, 15%);
+      --surface-transparent: hsla(247, 23%, 15%, 0.5);
+      --overlay: hsl(248, 25%, 18%);
+      --muted: hsl(249, 12%, 47%);
+      --highlight-low: hsl(244, 18%, 15%);
+      --highlight-med: hsl(249, 15%, 28%);
+      --highlight-high: hsl(248, 13%, 36%);
+      --love: hsl(343deg 76% 68%);
+      --pine: hsl(197deg 49% 38%);
+      --gold: hsl(35deg 88% 72%);
+      --iris: hsl(267deg 57% 78%);
+      --rose: hsl(2deg 55% 83%);
+      --foam: hsl(189deg 43% 73%);
+    }
+
+    else if theme == moon {
+      --text: hsl(245, 50%, 91%);
+      --base: hsl(246deg 24% 17%);
+      --surface: hsl(248deg 24% 20%);
+      --surface-transparent: hsla(248deg 24% 20%, 0.5);
+      --overlay: hsl(248deg 21% 26%);
+      --muted: hsl(249deg 12% 47%);
+      --highlight-low: hsl(245deg 22% 20%);
+      --highlight-med: hsl(247deg 16% 30%);
+      --highlight-high: hsl(249deg 15% 38%);
+      --love: hsl(343deg 76% 68%);
+      --pine: hsl(197deg 48% 47%);
+      --gold: hsl(35deg 88% 72%);
+      --iris: hsl(267deg 57% 78%);
+      --rose: hsl(2deg 55% 83%);
+      --foam: hsl(189deg 43% 73%);
+    }
+
+    else {
+      --text: hsl(248deg 19% 40%);
+      --base: hsl(32deg 57% 95%);
+      --surface: hsl(35deg 100% 98%);
+      --surface-transparent: hsla(35deg 100% 98%, 0.5);
+      --overlay: hsl(33deg 43% 91%);
+      --muted: hsl(257deg 9% 61%);
+      --highlight-low: hsl(25deg 35% 93%);
+      --highlight-med: hsl(10deg 9% 86%);
+      --highlight-high: hsl(315deg 4% 80%);
+      --love: hsl(343deg 35% 55%);
+      --pine: hsl(197deg 53% 34%);
+      --gold: hsl(35deg 81% 56%);
+      --iris: hsl(268deg 21% 57%);
+      --rose: hsl(3deg 53% 67%);
+      --foam: hsl(189deg 30% 48%);
+    }
+  }
+
+  .r-13v1u17 {
+    if logo == "Love" {
+      color: var(--love);
+    }
+
+    else if logo == "Pine" {
+      color: var(--pine);
+    }
+
+    else if logo == "Gold" {
+      color: var(--gold);
+    }
+
+    else if logo == "Iris" {
+      color: var(--iris);
+    }
+
+    else if logo == "Rose" {
+      color: var(--rose);
+    }
+
+    else if logo == "Foam" {
+      color: var(--foam);
+    }
+
+    else {
+      color: var(--muted);
+    }
+  }
+
+  body {
+    background-color: var(--base) !important;
+  }
+
+  .r-jwli3a,
+  .r-1nao33i,
+  .r-18jsvk2 {
+    color: var(--text);
+  }
+
+  .r-1bwzh9t {
+    color: var(--muted);
+  }
+
+  .r-yyyyoo {
+    fill: currentcolor;
+  }
+
+
+  .r-kemksi {
+    background-color: var(--base);
+  }
+
+  .r-g2wdr4,
+  .r-1sw30gj,
+  .r-x572qd,
+  .r-14lw9ot {
+    background-color: var(--surface);
+  }
+
+  .css-1dbjc4n,
+  .css-901oao {
+    border-color: var(--highlight-med) !important
+  }
+
+  .r-gu4em3 {
+    background-color: var(--highlight-high)
+  }
+
+  .r-5zmot,
+  .r-6026j {
+    background-color: var(--surface-transparent)
+  }
+
+  .r-z32n2g {
+    background-color: var(--surface)
+  }
+
+  .r-4nw3r4 {
+    background-color: var(--love)
+  }
+
+  .r-vkub15 {
+    color: var(--love)
+  }
+
+  .r-l5o3uw {
+    background-color: var(--pine)
+  }
+
+  .r-1to6hqq {
+    background-color: var(--gold)
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg {
+    color: var(--gold) !important
+  }
+
+  .r-168457u {
+    background-color: var(--iris)
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg {
+    color: var(--iris) !important
+  }
+
+  .r-2r9icm {
+    background-color: var(--rose)
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg {
+    color: var(--rose) !important
+  }
+
+  .r-s224ru {
+    background-color: var(--foam)
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(6) > label > svg {
+    color: var(--foam) !important
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg {
+    color: var(--gold)
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg {
+    color: var(--iris)
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg {
+    color: var(--rose)
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(6) > label > svg {
+    color: var(--foam)
+  }
+
+  .r-1vtznih {
+    background-color: var(--pine);
+  }
+
+  .r-8g4rmw {
+    background-color: var(--iris);
+  }
+
+  .r-m5n1nr {
+    background-color: var(--gold);
+  }
+
+  .r-1r4f3zc {
+    background-color: var(--love);
+  }
+
+  .r-oo8a77 {
+    background-color: var(--rose);
+  }
+
+  .r-1iwjfv5 {
+    background-color: var(--foam);
+  }
+}

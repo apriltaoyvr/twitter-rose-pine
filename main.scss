@@ -1,0 +1,188 @@
+@use 'sass:color';
+
+:root {
+  --text: hsl(245, 50%, 91%);
+  --base: hsl(249, 22%, 12%);
+  --surface: hsl(247, 23%, 15%);
+  --surface-transparent: hsla(247, 23%, 15%, 0.494);
+  --overlay: hsl(248, 25%, 18%);
+  --muted: hsl(249, 12%, 47%);
+  --highlight-low: hsl(244, 18%, 15%);
+  --highlight-med: hsl(249, 15%, 28%);
+  --highlight-high: hsl(248, 13%, 36%);
+
+  --love: hsl(343deg 76% 68%);
+  --pine: hsl(197deg 49% 38%);
+  --gold: hsl(35deg 88% 72%);
+  --iris: hsl(267deg 57% 78%);
+  --rose: hsl(2deg 55% 83%);
+  --foam: hsl(189deg 43% 73%);
+}
+
+$text: var(--text);
+$base: var(--base);
+$surface: var(--surface);
+$overlay: var(--overlay);
+$muted: var(--muted);
+$highlight-low: var(--highlight-low);
+$highlight-med: var(--highlight-med);
+$highlight-high: var(--highlight-high);
+
+$love: var(--love);
+$pine: var(--pine);
+$gold: var(--gold);
+$iris: var(--iris);
+$rose: var(--rose);
+$foam: var(--foam);
+
+body {
+  background-color: $base !important;
+}
+
+/* Text */
+.r-jwli3a,
+.r-1nao33i,
+.r-18jsvk2 {
+  color: var(--text);
+}
+
+.r-yyyyoo {
+  fill: currentcolor;
+}
+
+.r-13v1u17 {
+  color: $muted;
+}
+
+/* Background */
+.r-kemksi {
+  background-color: $base;
+}
+
+.r-g2wdr4,
+.r-1sw30gj,
+.r-x572qd {
+  background-color: $surface;
+}
+
+/* Border */
+.css-1dbjc4n,
+.css-901oao {
+  border-color: $highlight-med !important;
+}
+
+.r-gu4em3 {
+  background-color: $highlight-high;
+}
+
+/* Searchbar */
+.r-5zmot {
+  background-color: var(--surface-transparent);
+}
+
+.r-z32n2g {
+  background-color: $surface;
+}
+
+/** Accent Colours **/
+.r-4nw3r4 {
+  background-color: $love;
+}
+
+.r-vkub15 {
+  color: $love;
+}
+
+.r-l5o3uw {
+  background-color: $pine;
+}
+
+.r-1to6hqq {
+  background-color: $gold;
+}
+
+.css-1dbjc4n.r-11rk87y.r-1dye5f7
+  > div:nth-child(6)
+  > div
+  > div
+  > div:nth-child(2)
+  > label
+  > svg {
+  color: $gold !important;
+}
+
+.r-168457u {
+  background-color: $iris;
+}
+
+.css-1dbjc4n.r-11rk87y.r-1dye5f7
+  > div:nth-child(6)
+  > div
+  > div
+  > div:nth-child(4)
+  > label
+  > svg {
+  color: $iris !important;
+}
+
+.r-2r9icm {
+  background-color: $rose;
+}
+
+.css-1dbjc4n.r-11rk87y.r-1dye5f7
+  > div:nth-child(6)
+  > div
+  > div
+  > div:nth-child(5)
+  > label
+  > svg {
+  color: $rose !important;
+}
+
+.r-s224ru {
+  background-color: $foam;
+}
+
+.css-1dbjc4n.r-11rk87y.r-1dye5f7
+  > div:nth-child(6)
+  > div
+  > div
+  > div:nth-child(6)
+  > label
+  > svg {
+  color: $foam !important;
+}
+
+/* Accent Selection */
+$selectors: (
+  '.css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg':
+    $gold,
+  '.css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg':
+    $iris,
+  '.css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg':
+    $rose,
+  '.css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(6) > label > svg':
+    $foam,
+);
+
+@each $element, $color in $selectors {
+  #{$element} {
+    color: #{$color};
+  }
+}
+
+/* Hover */
+$hover-elements: (
+  '.r-1vtznih': $pine,
+  '.r-8g4rmw': $iris,
+  '.r-m5n1nr': $gold,
+  '.r-1r4f3zc': $love,
+  '.r-oo8a77': $rose,
+  '.r-1iwjfv5': $foam,
+);
+
+@each $element, $color in $hover-elements {
+  #{$element} {
+    background-color: $color;
+  }
+}
