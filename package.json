@@ -1,0 +1,11 @@
+{
+  "name": "twitter-rose-pine",
+  "scripts": {
+    "stylelint": "stylelint main.user.css"
+  },
+  "devDependencies": {
+    "postcss": "^8.4.22",
+    "sass": "^1.62.0",
+    "stylelint": "^15.5.0"
+  }
+}
