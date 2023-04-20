@@ -84,7 +84,8 @@
   }
 
   /* Logo */
-  .r-13v1u17 {
+  .r-13v1u17,
+  .r-1cvl2hr {
     if logo=='Love' {
       color: var(--love);
     }
