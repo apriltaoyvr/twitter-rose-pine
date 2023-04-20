@@ -39,6 +39,11 @@ body {
   background-color: $base !important;
 }
 
+/* Logo */
+.css-1dbjc4n.r-dnmrzs.r-1vvnge1 > h1 > a {
+  border-color: var(--base);
+}
+
 /* Text */
 .r-jwli3a,
 .r-1nao33i,
@@ -66,7 +71,10 @@ body {
 }
 
 /* Border */
-.css-1dbjc4n,
+.css-1dbjc4n {
+  border-color: $base;
+}
+
 .css-901oao {
   border-color: $highlight-med !important;
 }

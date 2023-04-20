@@ -15,19 +15,18 @@
 
 @var select logo "Logo Colour" [
   "Default*",
-	"Love",
-	"Pine",
-	"Rose",
+  "Love",
+  "Pine",
+  "Rose",
   "Gold",
   "Iris",
   "Foam"
 ]
 
 ==/UserStyle== */
-
 @-moz-document domain("twitter.com") {
   :root {
-    if theme == default {
+    if theme==default {
       --text: hsl(245, 50%, 91%);
       --base: hsl(249, 22%, 12%);
       --surface: hsl(247, 23%, 15%);
@@ -45,7 +44,7 @@
       --foam: hsl(189deg 43% 73%);
     }
 
-    else if theme == moon {
+    else if theme==moon {
       --text: hsl(245, 50%, 91%);
       --base: hsl(246deg 24% 17%);
       --surface: hsl(248deg 24% 20%);
@@ -82,28 +81,29 @@
     }
   }
 
+  /* Logo */
   .r-13v1u17 {
-    if logo == "Love" {
+    if logo=='Love' {
       color: var(--love);
     }
 
-    else if logo == "Pine" {
+    else if logo=='Pine' {
       color: var(--pine);
     }
 
-    else if logo == "Gold" {
+    else if logo=='Gold' {
       color: var(--gold);
     }
 
-    else if logo == "Iris" {
+    else if logo=='Iris' {
       color: var(--iris);
     }
 
-    else if logo == "Rose" {
+    else if logo=='Rose' {
       color: var(--rose);
     }
 
-    else if logo == "Foam" {
+    else if logo=='Foam' {
       color: var(--foam);
     }
 
@@ -112,111 +112,115 @@
     }
   }
 
+  .css-1dbjc4n.r-dnmrzs.r-1vvnge1 > h1 > a {
+    border-color: var(--base);
+  }
+
   body {
     background-color: var(--base) !important;
   }
 
+  .r-jwli3a,
   .r-1nao33i,
   .r-18jsvk2 {
     color: var(--text);
-  }
-
-  .r-1bwzh9t {
-    color: var(--muted);
   }
 
   .r-yyyyoo {
     fill: currentcolor;
   }
 
+  .r-13v1u17 {
+    color: var(--muted);
+  }
 
+  /* Background */
   .r-kemksi {
     background-color: var(--base);
   }
 
   .r-g2wdr4,
   .r-1sw30gj,
-  .r-x572qd,
-  .r-14lw9ot {
+  .r-x572qd {
     background-color: var(--surface);
   }
 
-  .css-1dbjc4n,
-  .css-901oao {
-    border-color: var(--highlight-med) !important
+  .css-1dbjc4n {
+    border-color: var(--highlight-med);
   }
 
   .r-gu4em3 {
-    background-color: var(--highlight-high)
+    background-color: var(--highlight-high);
   }
 
-  .r-5zmot,
-  .r-6026j {
-    background-color: var(--surface-transparent)
+  /* Searchbar */
+  .r-5zmot {
+    background-color: var(--surface-transparent);
   }
 
   .r-z32n2g {
-    background-color: var(--surface)
+    background-color: var(--surface);
   }
 
   .r-4nw3r4 {
-    background-color: var(--love)
+    background-color: var(--love);
   }
 
   .r-vkub15 {
-    color: var(--love)
+    color: var(--love);
   }
 
   .r-l5o3uw {
-    background-color: var(--pine)
+    background-color: var(--pine);
   }
 
   .r-1to6hqq {
-    background-color: var(--gold)
+    background-color: var(--gold);
   }
 
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg {
-    color: var(--gold) !important
+    color: var(--gold) !important;
   }
 
   .r-168457u {
-    background-color: var(--iris)
+    background-color: var(--iris);
   }
 
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg {
-    color: var(--iris) !important
+    color: var(--iris) !important;
   }
 
   .r-2r9icm {
-    background-color: var(--rose)
+    background-color: var(--rose);
   }
 
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg {
-    color: var(--rose) !important
+    color: var(--rose) !important;
   }
 
   .r-s224ru {
-    background-color: var(--foam)
+    background-color: var(--foam);
   }
 
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(6) > label > svg {
-    color: var(--foam) !important
+    color: var(--foam) !important;
   }
 
+  /* Accent Selection */
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg {
-    color: var(--gold)
+    color: var(--gold);
   }
 
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg {
-    color: var(--iris)
+    color: var(--iris);
   }
 
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg {
-    color: var(--rose)
+    color: var(--rose);
   }
 
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(6) > label > svg {
-    color: var(--foam)
+    color: var(--foam);
   }
 
   .r-1vtznih {
