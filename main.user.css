@@ -27,7 +27,7 @@
 @-moz-document domain("twitter.com") {
   :root {
     --white: hsl(35, 100%, 98%);
-    
+
     if theme==default {
       --text: hsl(245, 50%, 91%);
       --base: hsl(249, 22%, 12%);
@@ -121,9 +121,9 @@
 
   /* Text */
   .r-jwli3a {
-    color: var(--white)  
+    color: var(--white)
   }
-  
+
   .r-1nao33i,
   .r-18jsvk2 {
     color: var(--text);
@@ -174,7 +174,7 @@
   .r-gu4em3 {
     background-color: var(--highlight-high);
   }
-  
+
   /* Searchbar */
   .r-5zmot,
   .r-6026j {
