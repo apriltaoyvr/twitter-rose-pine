@@ -35,13 +35,22 @@ $iris: var(--iris);
 $rose: var(--rose);
 $foam: var(--foam);
 
+/* Background */
 body {
+  background-color: $base !important;
+}
+
+// Light theme button
+.css-1dbjc4n.r-1iusvr4.r-16y2uox.r-1777fci
+  > div
+  > .css-1dbjc4n.r-19u6a5r
+  > div {
   background-color: $base !important;
 }
 
 /* Logo */
 .css-1dbjc4n.r-dnmrzs.r-1vvnge1 > h1 > a {
-  border-color: var(--base);
+  border-color: $base;
 }
 
 /* Text */
@@ -72,11 +81,11 @@ body {
 
 /* Border */
 .css-1dbjc4n {
-  border-color: $base;
+  border-color: $highlight-med;
 }
 
 .css-901oao {
-  border-color: $highlight-med !important;
+  border-color: $base !important;
 }
 
 .r-gu4em3 {
@@ -84,7 +93,8 @@ body {
 }
 
 /* Searchbar */
-.r-5zmot {
+.r-5zmot,
+.r-6026j {
   background-color: var(--surface-transparent);
 }
 
@@ -93,6 +103,7 @@ body {
 }
 
 /** Accent Colours **/
+// These are all colour classes used in different elements
 .r-4nw3r4 {
   background-color: $love;
 }
@@ -109,6 +120,22 @@ body {
   background-color: $gold;
 }
 
+.r-14lw9ot {
+  background-color: hsl(35deg 100% 98%);
+}
+
+.r-168457u {
+  background-color: $iris;
+}
+
+.r-2r9icm {
+  background-color: $rose;
+}
+
+.r-s224ru {
+  background-color: $foam;
+}
+/* Selectors that don't fall under colour classes */
 .css-1dbjc4n.r-11rk87y.r-1dye5f7
   > div:nth-child(6)
   > div
@@ -117,10 +144,6 @@ body {
   > label
   > svg {
   color: $gold !important;
-}
-
-.r-168457u {
-  background-color: $iris;
 }
 
 .css-1dbjc4n.r-11rk87y.r-1dye5f7
@@ -133,10 +156,6 @@ body {
   color: $iris !important;
 }
 
-.r-2r9icm {
-  background-color: $rose;
-}
-
 .css-1dbjc4n.r-11rk87y.r-1dye5f7
   > div:nth-child(6)
   > div
@@ -145,10 +164,6 @@ body {
   > label
   > svg {
   color: $rose !important;
-}
-
-.r-s224ru {
-  background-color: $foam;
 }
 
 .css-1dbjc4n.r-11rk87y.r-1dye5f7

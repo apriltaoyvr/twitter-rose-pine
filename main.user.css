@@ -112,14 +112,16 @@
     }
   }
 
-  .css-1dbjc4n.r-dnmrzs.r-1vvnge1 > h1 > a {
-    border-color: var(--base);
-  }
-
+  /* Background */
   body {
     background-color: var(--base) !important;
   }
 
+  .css-1dbjc4n.r-1iusvr4.r-16y2uox.r-1777fci > div > .css-1dbjc4n.r-19u6a5r > div {
+    background-color: var(--base) !important;
+  }
+
+  /* Text */
   .r-jwli3a,
   .r-1nao33i,
   .r-18jsvk2 {
@@ -145,8 +147,13 @@
     background-color: var(--surface);
   }
 
+  /* Border */
   .css-1dbjc4n {
     border-color: var(--highlight-med);
+  }
+
+  .css-901oao {
+    border-color: var(--base);
   }
 
   .r-gu4em3 {
@@ -154,7 +161,8 @@
   }
 
   /* Searchbar */
-  .r-5zmot {
+  .r-5zmot,
+  .r-6026j {
     background-color: var(--surface-transparent);
   }
 
@@ -162,6 +170,7 @@
     background-color: var(--surface);
   }
 
+  /** Accent Colours **/
   .r-4nw3r4 {
     background-color: var(--love);
   }
@@ -178,28 +187,33 @@
     background-color: var(--gold);
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg {
-    color: var(--gold) !important;
+  .r-14lw9ot {
+    background-color: hsl(35, 100%, 98%);
   }
 
   .r-168457u {
     background-color: var(--iris);
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg {
-    color: var(--iris) !important;
-  }
-
   .r-2r9icm {
     background-color: var(--rose);
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg {
-    color: var(--rose) !important;
-  }
-
   .r-s224ru {
     background-color: var(--foam);
+  }
+
+  /* Selectors that don't fall under colour classes */
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg {
+    color: var(--gold) !important;
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg {
+    color: var(--iris) !important;
+  }
+
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg {
+    color: var(--rose) !important;
   }
 
   .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(6) > label > svg {
@@ -223,6 +237,7 @@
     color: var(--foam);
   }
 
+  /* Hover */
   .r-1vtznih {
     background-color: var(--pine);
   }
