@@ -2,7 +2,7 @@
 @name Rose Pine Twitter
 @namespace github.com/apriltaoyvr/rosepine-twitter
 @homepageURL https://github.com/artilate/rosepine-twitter
-@version 1.4
+@version 1.5
 
 @updateURL https://github.com/apriltaoyvr/twitter-rose-pine/raw/main/main.user.css
 @description Rose Pine for Twitter
@@ -26,6 +26,8 @@
 ==/UserStyle== */
 @-moz-document domain("twitter.com") {
   :root {
+    --white: hsl(35, 100%, 98%);
+    
     if theme==default {
       --text: hsl(245, 50%, 91%);
       --base: hsl(249, 22%, 12%);
@@ -64,8 +66,8 @@
 
     else {
       --text: hsl(248deg 19% 40%);
-      --base: hsl(32deg 57% 95%);
-      --surface: hsl(35deg 100% 98%);
+      --base: hsl(32, 57%, 95%);
+      --surface: var(--white);
       --surface-transparent: hsla(35deg 100% 98%, 0.5);
       --overlay: hsl(33deg 43% 91%);
       --muted: hsl(257deg 9% 61%);
@@ -117,12 +119,11 @@
     background-color: var(--base) !important;
   }
 
-  .css-1dbjc4n.r-1iusvr4.r-16y2uox.r-1777fci > div > .css-1dbjc4n.r-19u6a5r > div {
-    background-color: var(--base) !important;
-  }
-
   /* Text */
-  .r-jwli3a,
+  .r-jwli3a {
+    color: var(--white)  
+  }
+  
   .r-1nao33i,
   .r-18jsvk2 {
     color: var(--text);
@@ -141,15 +142,29 @@
     background-color: var(--base);
   }
 
+  .r-1sw30gj {
+    background-color: var(--highlight-med);
+  }
+
   .r-g2wdr4,
-  .r-1sw30gj,
   .r-x572qd {
     background-color: var(--surface);
   }
 
   /* Border */
-  .css-1dbjc4n {
+  .r-1kqtdi0,
+  .r-jxzhtn {
     border-color: var(--highlight-med);
+  }
+
+  .r-1igl3o0,
+  .r-j5o65s {
+    border-bottom-color: var(--highlight-med);
+  }
+
+  .r-1bnu78o,
+  .r-1bimlpy {
+    background-color: var(--highlight-med);
   }
 
   .css-901oao {
@@ -159,7 +174,7 @@
   .r-gu4em3 {
     background-color: var(--highlight-high);
   }
-
+  
   /* Searchbar */
   .r-5zmot,
   .r-6026j {
@@ -188,7 +203,7 @@
   }
 
   .r-14lw9ot {
-    background-color: hsl(35, 100%, 98%);
+    background-color: var(--white);
   }
 
   .r-168457u {

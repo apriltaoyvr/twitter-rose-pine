@@ -11,6 +11,7 @@
   --highlight-med: hsl(249, 15%, 28%);
   --highlight-high: hsl(248, 13%, 36%);
 
+  --white: hsl(35, 100%, 98%);
   --love: hsl(343deg 76% 68%);
   --pine: hsl(197deg 49% 38%);
   --gold: hsl(35deg 88% 72%);
@@ -28,6 +29,7 @@ $highlight-low: var(--highlight-low);
 $highlight-med: var(--highlight-med);
 $highlight-high: var(--highlight-high);
 
+$white: var(--white);
 $love: var(--love);
 $pine: var(--pine);
 $gold: var(--gold);
@@ -54,14 +56,12 @@ body {
 }
 
 /* Text */
-.r-jwli3a,
+.r-jwli3a {
+  color: $white;
+}
 .r-1nao33i,
 .r-18jsvk2 {
-  color: var(--text);
-}
-
-.r-yyyyoo {
-  fill: currentcolor;
+  color: $text;
 }
 
 .r-13v1u17 {
@@ -80,8 +80,16 @@ body {
 }
 
 /* Border */
-.css-1dbjc4n {
+.r-1kqtdi0 {
   border-color: $highlight-med;
+}
+
+.r-1igl3o0 {
+  border-bottom-color: $highlight-med;
+}
+
+.r-1bnu78o {
+  background-color: $highlight-med;
 }
 
 .css-901oao {
@@ -121,7 +129,7 @@ body {
 }
 
 .r-14lw9ot {
-  background-color: hsl(35deg 100% 98%);
+  background-color: $white;
 }
 
 .r-168457u {
