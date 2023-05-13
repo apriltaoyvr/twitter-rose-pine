@@ -3,8 +3,17 @@
 A Stylus theme for Twitter, using the [Rosé Pine](https://rosepinetheme.com/) palette.
 
 ## Screenshots
+
+### Rosé Pine
+
 ![image](https://user-images.githubusercontent.com/95392008/233385990-617c27f1-0464-4cef-97a0-f0eb307e0a32.png)
+
+### Rosé Pine Moon
+
 ![image](https://user-images.githubusercontent.com/95392008/233386076-3fa1c336-507b-4308-9d15-dfaf4f6aa909.png)
+
+### Rosé Pine Dawn
+
 ![image](https://user-images.githubusercontent.com/95392008/233386477-806ce52f-7819-4d91-8795-ef25845b5d73.png)
 
 ## Installation
