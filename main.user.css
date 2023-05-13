@@ -84,8 +84,7 @@
   }
 
   /* Logo */
-  .r-13v1u17,
-  .r-1cvl2hr {
+  .r-13v1u17 {
     if logo=='Love' {
       color: var(--love);
     }
@@ -130,12 +129,14 @@
     color: var(--text);
   }
 
+  /* Logo */
   .r-yyyyoo {
     fill: currentcolor;
   }
-
-  .r-13v1u17 {
-    color: var(--muted);
+  
+  /* Verified SVG */
+  .r-1cvl2hr {
+    color: var(--foam);
   }
 
   /* Background */
