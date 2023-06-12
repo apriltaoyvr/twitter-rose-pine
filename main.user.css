@@ -125,7 +125,7 @@
   }
 
   .r-1bwzh9t {
-    color: $muted;
+    color: var(--muted);
   }
 
   .r-1nao33i,
