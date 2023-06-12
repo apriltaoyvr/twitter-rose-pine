@@ -7,6 +7,7 @@
   --surface-transparent: hsla(247, 23%, 15%, 0.494);
   --overlay: hsl(248, 25%, 18%);
   --muted: hsl(249, 12%, 47%);
+  --subtle: hsl(248deg, 15%, 61%);
   --highlight-low: hsl(244, 18%, 15%);
   --highlight-med: hsl(249, 15%, 28%);
   --highlight-high: hsl(248, 13%, 36%);
@@ -25,6 +26,7 @@ $base: var(--base);
 $surface: var(--surface);
 $overlay: var(--overlay);
 $muted: var(--muted);
+$subtle: var(--subtle);
 $highlight-low: var(--highlight-low);
 $highlight-med: var(--highlight-med);
 $highlight-high: var(--highlight-high);
@@ -73,6 +75,10 @@ body {
 
 .r-1bwzh9t {
   color: $muted;
+}
+
+input::placeholder {
+  color: $subtle !important;
 }
 
 /* Background */

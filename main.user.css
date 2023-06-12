@@ -35,6 +35,7 @@
       --surface-transparent: hsla(247, 23%, 15%, 0.5);
       --overlay: hsl(248, 25%, 18%);
       --muted: hsl(249, 12%, 47%);
+      --subtle: hsl(248deg, 15%, 61%);
       --highlight-low: hsl(244, 18%, 15%);
       --highlight-med: hsl(249, 15%, 28%);
       --highlight-high: hsl(248, 13%, 36%);
@@ -53,6 +54,7 @@
       --surface-transparent: hsla(248deg 24% 20%, 0.5);
       --overlay: hsl(248deg 21% 26%);
       --muted: hsl(249deg 12% 47%);
+      --subtle: hsl(248deg, 15%, 61%);
       --highlight-low: hsl(245deg 22% 20%);
       --highlight-med: hsl(247deg 16% 30%);
       --highlight-high: hsl(249deg 15% 38%);
@@ -71,6 +73,7 @@
       --surface-transparent: hsla(35deg 100% 98%, 0.5);
       --overlay: hsl(33deg 43% 91%);
       --muted: hsl(257deg 9% 61%);
+      --subtle: hsl(248deg, 12%, 52%);
       --highlight-low: hsl(25deg 35% 93%);
       --highlight-med: hsl(10deg 9% 86%);
       --highlight-high: hsl(315deg 4% 80%);
@@ -131,6 +134,26 @@
   .r-1nao33i,
   .r-18jsvk2 {
     color: var(--text);
+  }
+
+  input::-webkit-input-placeholder {
+    color: var(--subtle) !important;
+  }
+
+  input::-moz-placeholder {
+    color: var(--subtle) !important;
+  }
+
+  input:-ms-input-placeholder {
+    color: var(--subtle) !important;
+  }
+
+  input::-ms-input-placeholder {
+    color: var(--subtle) !important;
+  }
+
+  input::placeholder {
+    color: var(--subtle) !important;
   }
 
   /* Logo */
