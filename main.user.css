@@ -121,7 +121,11 @@
 
   /* Text */
   .r-jwli3a {
-    color: var(--white)
+    color: var(--white);
+  }
+
+  .r-1bwzh9t {
+    color: $muted;
   }
 
   .r-1nao33i,
@@ -133,7 +137,7 @@
   .r-yyyyoo {
     fill: currentcolor;
   }
-  
+
   /* Verified SVG */
   .r-1cvl2hr {
     color: var(--foam);
@@ -222,36 +226,84 @@
   }
 
   /* Selectors that don't fall under colour classes */
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg {
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7
+    > div:nth-child(6)
+    > div
+    > div
+    > div:nth-child(2)
+    > label
+    > svg {
     color: var(--gold) !important;
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg {
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7
+    > div:nth-child(6)
+    > div
+    > div
+    > div:nth-child(4)
+    > label
+    > svg {
     color: var(--iris) !important;
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg {
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7
+    > div:nth-child(6)
+    > div
+    > div
+    > div:nth-child(5)
+    > label
+    > svg {
     color: var(--rose) !important;
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(6) > label > svg {
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7
+    > div:nth-child(6)
+    > div
+    > div
+    > div:nth-child(6)
+    > label
+    > svg {
     color: var(--foam) !important;
   }
 
   /* Accent Selection */
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(2) > label > svg {
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7
+    > div:nth-child(6)
+    > div
+    > div
+    > div:nth-child(2)
+    > label
+    > svg {
     color: var(--gold);
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(4) > label > svg {
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7
+    > div:nth-child(6)
+    > div
+    > div
+    > div:nth-child(4)
+    > label
+    > svg {
     color: var(--iris);
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(5) > label > svg {
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7
+    > div:nth-child(6)
+    > div
+    > div
+    > div:nth-child(5)
+    > label
+    > svg {
     color: var(--rose);
   }
 
-  .css-1dbjc4n.r-11rk87y.r-1dye5f7 > div:nth-child(6) > div > div > div:nth-child(6) > label > svg {
+  .css-1dbjc4n.r-11rk87y.r-1dye5f7
+    > div:nth-child(6)
+    > div
+    > div
+    > div:nth-child(6)
+    > label
+    > svg {
     color: var(--foam);
   }
 
