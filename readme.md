@@ -2,6 +2,8 @@
 
 A Stylus theme for Twitter, using the [Rosé Pine](https://rosepinetheme.com/) palette.
 
+For the default **Rosé Pine** and **Rosé Pine Moon**, please switch to the dark theme on twitter.
+
 ## Screenshots
 
 | Rosé Pine | Rosé Pine Moon | Rosé Pine Dawn |
@@ -14,13 +16,8 @@ A Stylus theme for Twitter, using the [Rosé Pine](https://rosepinetheme.com/) p
 2. Download the theme from [here](https://github.com/apriltaoyvr/twitter-rose-pine/raw/main/main.user.css) or via [Userstyles](https://userstyles.world/style/9440/rose-pine-twitter)
 3. Activate the theme
 
-For the default **Rosé Pine** and **Rosé Pine Moon**, please switch to the dark theme on twitter.
-
-The accent colour can be adjusted via the theme adjuster on twitter as well.
-
 ## Notes
 
-- Dawn (Light Theme) will only work with Twitter's light theme enabled and vice versa for the default and Moon variants
 - The accent colours for some text is hardcoded onto twitter without selectors. There is not much I can do about this unfortunately.
 - `main.user.css` is written in [UserCSS](https://github.com/openstyles/stylus/wiki/Writing-UserCSS#var) for customization
   - The base is written in SCSS for convenience, `main.user.css` is written off of the compiled SCSS
